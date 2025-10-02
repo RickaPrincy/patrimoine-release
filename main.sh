@@ -2,7 +2,7 @@
 
 # --- Configuration ---
 LAST_VERSION="0.2.1" # put here the latest version number
-LINK=""              # put here the download link
+LINK=''              # put here the download link, (dropbox best choice)
 
 JAR_NAME="patrimoine@${LAST_VERSION}.jar"
 USER_DIR="$HOME"
@@ -17,7 +17,7 @@ EXISTING_JAR=$(ls patrimoine@*.jar 2>/dev/null | head -n 1)
 if [ -n "$EXISTING_JAR" ]; then
     CURRENT_VERSION=$(echo "$EXISTING_JAR" | cut -d "@" -f 2 | cut -d "." -f 1-3)
     if [ "$CURRENT_VERSION" = "$LAST_VERSION" ]; then
-        echo "Vous avez déjà la dernière version : $LAST_VERSION"
+        echo "Vous avez déjà la dernière version : $EXISTING_JAR dans $(pwd)/$EXISTING_JAR"
     else
         echo "Ancienne version détectée : $CURRENT_VERSION. Suppression et téléchargement de la version $LAST_VERSION..."
         rm -f "$EXISTING_JAR"
@@ -25,6 +25,7 @@ if [ -n "$EXISTING_JAR" ]; then
     fi
 else
     echo "Aucune version détectée. Téléchargement de la version $LAST_VERSION..."
+    echo "Le téléchargement peut prendre quelques instants..."
     curl -L -o "$JAR_NAME" "$LINK"
 fi
 
