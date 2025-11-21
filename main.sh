@@ -2,7 +2,7 @@
 
 # --- Configuration ---
 LAST_VERSION="0.2.0" # put here the latest version number
-LINK='https://www.dropbox.com/scl/fi/yppghdnb5nm5gnxevb893/patrimoine-v0.2.0.jar?rlkey=qyt2ssmfgfnqat4c0f7y6yiu5&st=7umce0vx&dl=1'              # put here the download link, (dropbox best choice)
+LINK='https://www.dropbox.com/scl/fi/z01mdgfqapot4qd9c36yk/patrimoine.jar?rlkey=unkrcqk0je0efec17o2fljr1a&st=ooz6d0wd&dl=1?'              # put here the download link, (dropbox best choice)
 
 JAR_NAME="patrimoine@${LAST_VERSION}.jar"
 USER_DIR="$HOME"
