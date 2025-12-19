@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # --- Configuration ---
-LAST_VERSION="0.2.5" # put here the latest version number
-LINK='https://www.dropbox.com/scl/fi/ciimly4il2om9chgimqa7/patrimoine-0.2.5.jar?rlkey=d5vtdkfvk94y2oz65fyevpve6&st=qon6g6xh&dl=1'              # put here the download link, (dropbox best choice)
+LAST_VERSION="0.2.6" # put here the latest version number
+LINK='https://www.dropbox.com/scl/fi/875j2r73p4yh4zdm5tjee/patrimoine-0.2.6.jar?rlkey=uvm25vzms2xljpieyyelx7sxi&st=ed9qufam&dl=1'              # put here the download link, (dropbox best choice)
 
 JAR_NAME="patrimoine@${LAST_VERSION}.jar"
 USER_DIR="$HOME"
