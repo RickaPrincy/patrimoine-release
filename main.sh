@@ -2,7 +2,7 @@
 
 # --- Configuration ---
 LAST_VERSION="0.3.5" # put here the latest version number
-LINK='https://www.dropbox.com/scl/fi/aym8doaemm34jaliezav2/patrimoine-0.3.5.jar?rlkey=ai84z2lux8nxcc92foi1xiz17&st=yzzfxmuy&dl=1' 
+LINK='https://patrimoine.hei.school/latest' 
 
 JAR_NAME="patrimoine@${LAST_VERSION}.jar"
 USER_DIR="$HOME"
