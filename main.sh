@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- Configuration ---
-LAST_VERSION="0.4.0" # put here the latest version number
+LAST_VERSION="0.4.1" # put here the latest version number
 LINK='https://patrimoine.hei.school/latest' 
 
 JAR_NAME="patrimoine@${LAST_VERSION}.jar"
